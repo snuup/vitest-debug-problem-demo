@@ -1,5 +1,10 @@
-import { test } from 'vitest'
+import { test, describe } from 'vitest'
 
-test("labtest", () => {
-    console.log("debug this line");    
+describe("suite", () => {
+
+    test("labtest", () => {
+        console.log("debug this line");    
+    })
+
 })
+
